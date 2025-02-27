@@ -6,7 +6,7 @@ permalink: /bli-medlem
 
 # Bli medlem hos oss
 
-##Prøvetreninger
+## Prøvetreninger
 
 Alle kan prøve å trene med oss gratis før man bestemmer seg for å bli medlem. Alle får 2 gratis prøveuker der man kan trene så mye man vil og prøve alle våre våpen.
 
@@ -20,3 +20,5 @@ Medlemskap i klubben koster kr 1000,- per semester og gir tilgang til alle våre
 Alder
 
 Vi har ingen grupper for barn eller ungdom og vi tar i utgangspunktet ikke inn medlemmer under 16 år. Vi kan være litt fleksible på dette i enkelte tilfeller med foresattes godkjennelse.
+
+[Registrer deg her!](https://club.spond.com/landing/signup/frieduellister/form/A49B30787C2946E19D157A768DCF9091)
