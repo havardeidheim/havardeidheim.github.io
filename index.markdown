@@ -4,6 +4,6 @@ title: "Home"
 permalink: /
 ---
 
-#Home
+# Home
 
 This is our home page!
