@@ -22,3 +22,5 @@ Alder
 Vi har ingen grupper for barn eller ungdom og vi tar i utgangspunktet ikke inn medlemmer under 16 år. Vi kan være litt fleksible på dette i enkelte tilfeller med foresattes godkjennelse.
 
 [Registrer deg her!](https://club.spond.com/landing/signup/frieduellister/form/A49B30787C2946E19D157A768DCF9091)
+
+[Registrer deg her!](https://club.spond.com/landing/signup/frieduellister/form/A49B30787C2946E19D157A768DCF9091){: class="button-link"}
