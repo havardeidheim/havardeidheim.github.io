@@ -17,7 +17,8 @@ For å bli medlem i klubben må man registrere seg i medlemssystemet vårt Spond
 ## Pris
 
 Medlemskap i klubben koster kr 1000,- per semester og gir tilgang til alle våre treninger. Betalingsforespørsler blir sendt ut via Spond hvert semester.
-Alder
+
+## Alder
 
 Vi har ingen grupper for barn eller ungdom og vi tar i utgangspunktet ikke inn medlemmer under 16 år. Vi kan være litt fleksible på dette i enkelte tilfeller med foresattes godkjennelse.
 
