@@ -1,0 +1,17 @@
+@import "reset";
+
+.article {
+  max-width: 900px;
+}
+
+.row {
+  max-width: 1200;
+  padding-inline: 0;
+  margin: 0 auto;
+  clear: both;
+
+  &--indent {
+    max-width: 800px;
+    padding-inline: 0;
+  }
+}

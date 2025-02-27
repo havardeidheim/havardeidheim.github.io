@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: article
 title: "Bli medlem"
 permalink: /bli-medlem
 ---
