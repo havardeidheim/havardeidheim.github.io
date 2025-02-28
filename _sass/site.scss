@@ -1,7 +1,10 @@
 @import "reset";
 
-.article {
-  max-width: 900px;
+.body {
+  background-image: url("assets/images/background-i33.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .row {
