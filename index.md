@@ -1,13 +1,13 @@
 ---
 layout: page
-title: "Home"
+title: ""
 permalink: /
 ---
 
 <div class="row" markdown="1">
 # Front page with long title indeed
 </div>
-<div class="row row-indent" markdown="1">
+<div class="row row--indent" markdown="1">
 Here begins the epitome on the knightly art of combat that was composed and
 created by Johannes Liechtenauer, who was a great master in the art, God
 have mercy on him; first with the long sword, then with the lance and sword

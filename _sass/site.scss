@@ -10,6 +10,10 @@
   background-size: cover;
 }
 
+.content {
+  min-height: 600px;
+}
+
 .row {
   max-width: 1200px;
   padding-inline: 0;
@@ -23,8 +27,35 @@
 }
 
 .header {
-  height: 64px;
-  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: $spacing-1;
+  padding-bottom: $spacing-1;
+
+  .logo {
+    width: 120px;
+    height: 50px;
+    background-color: black;
+  }
+
+  .navigation {
+    display: flex;
+    align-items: center;
+
+    ul {
+      list-style: none;
+    }
+
+    .nav-list {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+    }
+    .nav-item {
+      margin-right: $spacing-2;
+    }
+  }
 }
 
 .footer {
