@@ -2,6 +2,10 @@
 @import "vars";
 @import "typography";
 
+@import "header";
+@import "footer";
+@import "dropdown";
+
 .body {
   background-image: url("/assets/images/background-i33.jpg");
   background-repeat: no-repeat;
@@ -24,71 +28,4 @@
     max-width: 660px;
     padding-inline: 0;
   }
-}
-
-.dropdown-menu {
-  position: relative;
-  .dropdown-menu-button::after {
-    margin-left: $spacing-025;
-    content: "⯆";
-  }
-  .dropdown-menu-content {
-    display: none;
-    z-index: 1;
-    position: absolute;
-    background-color: white;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    min-width: 120px;
-    padding: $spacing-1;
-  }
-}
-
-.dropdown-menu:hover {
-  .dropdown-menu-button::after {
-    content: "⯅";
-  }
-  .dropdown-menu-content {
-    display: block;
-  }
-}
-
-.header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-top: $spacing-1;
-  padding-bottom: $spacing-1;
-
-  .logo {
-    width: 250px;
-    height: 84px;
-    background-image: url("/assets/images/fkfd-logo-black-transparent.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .navigation {
-    display: flex;
-    align-items: center;
-
-    ul {
-      list-style: none;
-    }
-
-    .nav-list {
-      display: flex;
-      flex-direction: row;
-      justify-content: left;
-    }
-
-    .nav-item {
-      margin-right: $spacing-2;
-    }
-  }
-}
-
-.footer {
-  height: 64px;
-  background-color: black;
 }
