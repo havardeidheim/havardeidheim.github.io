@@ -9,10 +9,10 @@ Enkle sider lages med markdown som er en enkel måte å skrive innhold på, se h
 ## Local development
 
 Install dependencies
-bundle install
+`bundle install`
 
 Update github pages gem
-bundle update githb-pages
+`bundle update githb-pages`
 
 Start dev server
-bundle exec jekyll serve
+`bundle exec jekyll serve`
