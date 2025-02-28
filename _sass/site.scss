@@ -1,7 +1,7 @@
 @import "reset";
 
 .body {
-  background-image: url("assets/images/background-i33.jpg");
+  background-image: url("/assets/images/background-i33.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -20,9 +20,11 @@
 }
 
 .header {
+  height: 64px;
   background-color: black;
 }
 
 .footer {
+  height: 64px;
   background-color: black;
 }
