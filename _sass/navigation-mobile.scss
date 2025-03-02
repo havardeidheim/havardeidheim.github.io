@@ -1,0 +1,68 @@
+.button-open-navigation,
+.button-close-navigation {
+  display: none;
+  font-size: $font-size-h3;
+}
+
+@media screen and (max-width: $breakpoint-l) {
+  .button-open-navigation {
+    display: inline-block;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: start;
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+
+    top: 120px;
+    left: 0;
+
+    background-color: white;
+    padding: $spacing-1;
+
+    .nav-list {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .nav-item {
+      padding-top: $spacing-05;
+      padding-bottom: $spacing-05;
+      border-bottom: 1px solid black;
+    }
+
+    .nav-expand-item {
+      padding-top: $spacing-025;
+      padding-bottom: $spacing-025;
+    }
+
+    .nav-item a,
+    .nav-item button {
+      font-size: $font-size-h2-mobile;
+    }
+    .nav-expand-item a {
+      font-size: $font-size-h3-mobile;
+    }
+
+    .nav-expand {
+      position: relative;
+
+      .nav-expand-list {
+        display: block;
+        z-index: auto;
+        position: unset;
+        background-color: unset;
+        box-shadow: none;
+        padding: 0 $spacing-1;
+      }
+      .nav-expand-toggle::after {
+        margin-left: $spacing-05;
+        content: "⏷";
+      }
+    }
+  }
+}

@@ -1,33 +1,50 @@
 <div class="row">
-  <div class="header">
-    <a href="/" class="logo"></a>
-    <div class="navigation">
+  <header class="header">
+    <a href="/" class="logo-link"></a>
+
+    <button class="button-open-navigation" aria-label="Åpne meny">☰</button>
+    <button class="button-close-navigation" aria-label="Lukk meny">✖</button>
+
+    <nav class="navigation">
       <ul class="nav-list">
         <li class="nav-item">
-          <a class="nav-link" href="">Bli medlem</a>
+          <a href="/bli-medlem">Bli medlem</a>
+        </li>
+        <li class="nav-item nav-expand">
+          <button class="nav-expand-toggle">Treninger</button>
+          <ul class="nav-expand-list">
+            <li class="nav-expand-item">
+              <a href="">Tren i Oslo</a>
+            </li>
+            <li class="nav-expand-item">
+              <a href="">Tren i Bergen</a>
+            </li>
+            <li class="nav-expand-item">
+              <a href="">Tren i Tromsø</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item nav-expand">
+          <button class="nav-expand-toggle">Treninger</button>
+          <ul class="nav-expand-list">
+            <li class="nav-expand-item">
+              <a href="">Tren i Oslo</a>
+            </li>
+            <li class="nav-expand-item">
+              <a href="">Tren i Bergen</a>
+            </li>
+            <li class="nav-expand-item">
+              <a href="">Tren i Tromsø</a>
+            </li>
+          </ul>
         </li>
         <li class="nav-item">
-          <div class="dropdown-menu">
-            <button class="dropdown-menu-button">Treninger</button>
-            <div class="dropdown-menu-content">
-              <ul class="dropdown-menu-link-list">
-                <li>
-                  <a class="nav-link" href="">Tren i Oslo</a>
-                </li>
-                <li>
-                  <a class="nav-link" href="">Tren i Bergen</a>
-                </li>
-                <li>
-                  <a class="nav-link" href="">Tren i Tromsø</a>
-                </li>
-              </ul>
-            </div>
-          </div>
+          <a href="/kontakt">Kontakt</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">Kontakt</a>
+          <a href="/kontakt">Kontakt</a>
         </li>
       </ul>
-    </div>
-  </div>
+    </nav>
+  </header>
 </div>

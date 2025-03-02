@@ -5,7 +5,7 @@
   padding-top: $spacing-1;
   padding-bottom: $spacing-1;
 
-  .logo {
+  .logo-link {
     width: 250px;
     height: 84px;
     background-image: url("/assets/images/fkfd-logo-black-transparent.png");
@@ -14,32 +14,8 @@
     background-repeat: no-repeat;
   }
 
-  .navigation {
-    display: flex;
-    align-items: center;
-
-    ul {
-      list-style: none;
-    }
-
-    .nav-list {
-      display: flex;
-      flex-direction: row;
-      justify-content: left;
-    }
-
-    .nav-item {
-      margin-right: $spacing-2;
-
-      a {
-        display: inline-block;
-        color: black;
-        text-decoration: none;
-      }
-
-      a:hover {
-        text-decoration: underline;
-      }
-    }
+  @media screen and (max-width: $breakpoint-l) {
+    padding-left: $spacing-1;
+    padding-right: $spacing-1;
   }
 }
