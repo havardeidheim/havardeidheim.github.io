@@ -1,4 +1,26 @@
+.footer-background {
+  background-color: #303030;
+}
+
 .footer {
-  height: 64px;
-  background-color: black;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  .footer-section {
+    color: white;
+    p {
+      text-align: center;
+    }
+
+    a {
+      color: white;
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-l) {
+    flex-wrap: wrap;
+  }
 }
