@@ -1,26 +1,26 @@
-.footer-background {
-  background-color: #303030;
-}
-
 .footer {
-  height: 200px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  background-color: #303030;
 
-  .footer-section {
-    color: white;
-    p {
-      text-align: center;
-    }
+  .footer-content {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 
-    a {
+    .footer-section {
       color: white;
-    }
-  }
+      p {
+        text-align: center;
+      }
 
-  @media screen and (max-width: $breakpoint-l) {
-    flex-wrap: wrap;
+      a {
+        color: white;
+      }
+    }
+
+    @media screen and (max-width: $breakpoint-l) {
+      flex-wrap: wrap;
+    }
   }
 }
