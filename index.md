@@ -5,17 +5,14 @@ permalink: /
 ---
 
 <div class="row center-text" markdown="1">
-# Front page with long title indeed
+# Lær fektekunsten hos oss!
 </div>
 <div class="row row--indent" markdown="1">
-Here begins the epitome on the knightly art of combat that was composed and
-created by Johannes Liechtenauer, who was a great master in the art, God
-have mercy on him; first with the long sword, then with the lance and sword
-on horseback, and then with the short sword in armoured combat. Because the
-art belongs to princes and lords, knights and squires, and they should know
-and learn this art, he has written of this art in hidden and secret words,
-so that not everyone will grasp and understand it, as you will find
-described below. And he has done this on account of frivolous fight masters
-who mistake the art as trivial, so that such masters will not make his art
-common or open with people who do not hold the art in respect as is its due.
+
+Fekteklubben Frie Duellister (FKFD) er en klubb der vi praktiserer og formidler historisk fekting og HEMA (Historical European Martial Arts).
+
+Frie Duellister ble grunnlagt i Bergen i 2003 og er norges største og eldste klubb innen HEMA. HEMA er en samlebetegnelse på kampsport basert på historiske kilder fra Europa som omfatter fekting med historiske våpen, bryting osv. fra middelalderen til slutten av 1800-tallet. Vi har i dag avdelinger i Oslo, Bergen og Tromsø.
+
+De fleste som begynner å trene med oss har ingen annen treningsbakgrunn og HEMA er perfekt for de som ønsker en litt annerledes aktivitet som kombinerer trening, kampsport og historisk interesse.
+
 </div>
