@@ -4,7 +4,7 @@ title: "Home"
 permalink: /
 ---
 
-<div class="row" markdown="1">
+<div class="row center-text" markdown="1">
 # Front page with long title indeed
 </div>
 <div class="row row--indent" markdown="1">

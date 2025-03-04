@@ -1,9 +1,11 @@
 .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-top: $spacing-1;
-  padding-bottom: $spacing-1;
+  .header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: $spacing-1;
+    padding-bottom: $spacing-1;
+  }
 
   .logo-link {
     width: 250px;
