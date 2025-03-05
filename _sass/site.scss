@@ -43,3 +43,24 @@
 .spacing-4 {
   margin-bottom: $spacing-4;
 }
+
+.button-link {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: black;
+  border: 2px solid black;
+  padding: $spacing-1;
+
+  transition: all 0.3s ease;
+
+  &:hover,
+  &:focus {
+    color: black;
+    background-color: white;
+  }
+
+  &:active {
+    transform: translateY(4px);
+  }
+}
