@@ -1,12 +1,14 @@
 @import "reset";
 @import "vars";
 @import "typography";
+@import "grid";
 
 @import "header";
 @import "navigation-desktop";
 @import "navigation-mobile";
 @import "footer";
 @import "images";
+
 
 .body {
   background-image: url("/assets/images/background-i33.jpg");
@@ -30,6 +32,17 @@
     max-width: 660px;
     padding-inline: 0;
   }
+
+  &--indent-medium {
+    max-width: 1000px;
+    padding-inline: 0;
+  }
+}
+
+.background-white{
+  background-color: white;
+  padding-top: $spacing-2;
+  padding-bottom: $spacing-2;
 }
 
 .center-text {
@@ -47,6 +60,7 @@
 .button-link {
   display: inline-block;
   text-decoration: none;
+  font-weight: bold;
   color: white;
   background: black;
   border: 2px solid black;
@@ -63,4 +77,8 @@
   &:active {
     transform: translateY(4px);
   }
+}
+
+iframe{
+  width: 100%;
 }

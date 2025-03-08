@@ -3,30 +3,29 @@ layout: page
 title: "Home"
 permalink: /
 ---
-
-<div class="row center-text" markdown="1">
-# Lær fektekunsten hos oss!
-</div>
+<div class="row center-text" markdown="1"># Lær fektekunsten hos oss!</div>
 <div class="row row--indent spacing-4" markdown="1">
+  Fekteklubben Frie Duellister (FKFD) er en klubb der vi praktiserer og formidler historisk fekting og HEMA (Historical
+  European Martial Arts).
 
-Fekteklubben Frie Duellister (FKFD) er en klubb der vi praktiserer og formidler historisk fekting og HEMA (Historical European Martial Arts).
+  Frie Duellister ble grunnlagt i Bergen i 2003 og er norges største og eldste klubb innen HEMA. HEMA er en
+  samlebetegnelse på kampsport basert på historiske kilder fra Europa som omfatter fekting med historiske våpen, bryting
+  osv. fra middelalderen til slutten av 1800-tallet. Vi har i dag avdelinger i Oslo, Bergen og Tromsø.
 
-Frie Duellister ble grunnlagt i Bergen i 2003 og er norges største og eldste klubb innen HEMA. HEMA er en samlebetegnelse på kampsport basert på historiske kilder fra Europa som omfatter fekting med historiske våpen, bryting osv. fra middelalderen til slutten av 1800-tallet. Vi har i dag avdelinger i Oslo, Bergen og Tromsø.
-
-De fleste som begynner å trene med oss har ingen annen treningsbakgrunn og HEMA er perfekt for de som ønsker en litt annerledes aktivitet som kombinerer trening, kampsport og historisk interesse.
-
+  De fleste som begynner å trene med oss har ingen annen treningsbakgrunn og HEMA er perfekt for de som ønsker en litt
+  annerledes aktivitet som kombinerer trening, kampsport og historisk interesse.
 </div>
 
 <div class="row spacing-4">
-    <div class="gallery">
-        <img src="https://assets.zyrosite.com/mePnDwWOg2I9gvpV/untitled-AMq49xKnzjtJ1505.jpg"/>
-        <img src="https://assets.zyrosite.com/mePnDwWOg2I9gvpV/33943932_2144464525789403_9085913652950728704_n-YbN9zZQ4gBSwZj9q.jpg"/>
-        <img src="https://assets.zyrosite.com/mePnDwWOg2I9gvpV/20180829_205058-AoPG86OLQVU4MVlG.jpg"/>
-        <img src="https://assets.zyrosite.com/mePnDwWOg2I9gvpV/33720268_2144465265789329_4586059692328878080_n-mePn6eVjrLib6npl.jpg"/>
-        <img src="https://assets.zyrosite.com/mePnDwWOg2I9gvpV/bruchius_book-mv0717M5QkH2K15d.jpg"/>
-        <img src="https://assets.zyrosite.com/mePnDwWOg2I9gvpV/23213187_2036509409918249_2924456090510456545_o-Yyv7OBVa8VUZN8W9.jpg"/>
-        <img src="https://assets.zyrosite.com/mePnDwWOg2I9gvpV/23334235_2038591006376756_3286978314259016105_o-YBg4vqKJzxfW8EZ7.jpg"/>
-        <img src="https://assets.zyrosite.com/mePnDwWOg2I9gvpV/33994819_2144468062455716_7752266238130126848_n-mePn614gJMcpJoX7.jpg"/>
-        <img src="https://assets.zyrosite.com/mePnDwWOg2I9gvpV/untitled-YleqOGV3R2cqvw4O.jpg"/>
-    </div>
+  <div class="gallery">
+    <img src="https://assets.zyrosite.com/mePnDwWOg2I9gvpV/untitled-AMq49xKnzjtJ1505.jpg">
+    <img src="https://assets.zyrosite.com/mePnDwWOg2I9gvpV/33943932_2144464525789403_9085913652950728704_n-YbN9zZQ4gBSwZj9q.jpg">
+    <img src="https://assets.zyrosite.com/mePnDwWOg2I9gvpV/20180829_205058-AoPG86OLQVU4MVlG.jpg">
+    <img src="https://assets.zyrosite.com/mePnDwWOg2I9gvpV/33720268_2144465265789329_4586059692328878080_n-mePn6eVjrLib6npl.jpg">
+    <img src="https://assets.zyrosite.com/mePnDwWOg2I9gvpV/bruchius_book-mv0717M5QkH2K15d.jpg">
+    <img src="https://assets.zyrosite.com/mePnDwWOg2I9gvpV/23213187_2036509409918249_2924456090510456545_o-Yyv7OBVa8VUZN8W9.jpg">
+    <img src="https://assets.zyrosite.com/mePnDwWOg2I9gvpV/23334235_2038591006376756_3286978314259016105_o-YBg4vqKJzxfW8EZ7.jpg">
+    <img src="https://assets.zyrosite.com/mePnDwWOg2I9gvpV/33994819_2144468062455716_7752266238130126848_n-mePn614gJMcpJoX7.jpg">
+    <img src="https://assets.zyrosite.com/mePnDwWOg2I9gvpV/untitled-YleqOGV3R2cqvw4O.jpg">
+  </div>
 </div>
