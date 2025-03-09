@@ -23,17 +23,17 @@ h1 {
   font-size: $font-size-h1;
 }
 
-h2 {
+h2, .font-xl {
   font-size: $font-size-h2;
 }
 
-h3 {
+h3, .font-l {
   font-size: $font-size-h3;
 }
 
 h4,
 h5,
-h6 {
+h6, .font-m {
   font-size: $font-size-large;
 }
 
@@ -85,11 +85,11 @@ a {
     font-size: $font-size-h1-mobile;
   }
 
-  h2 {
+  h2, .font-xl {
     font-size: $font-size-h2-mobile;
   }
 
-  h3 {
+  h3, .font-l {
     font-size: $font-size-h3-mobile;
   }
 }
