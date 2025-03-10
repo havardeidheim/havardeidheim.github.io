@@ -2,6 +2,7 @@
   .header-content {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-top: $spacing-1;
     padding-bottom: $spacing-1;
@@ -19,5 +20,9 @@
   @media screen and (max-width: $breakpoint-l) {
     padding-left: $spacing-1;
     padding-right: $spacing-1;
+
+    &.navigation-open {
+      background: white;
+    }
   }
 }
