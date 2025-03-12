@@ -1,10 +1,8 @@
-function addNaviagation() {
+function addMobileSideMenu() {
   let header = document.querySelector(".header");
-  let navigation = document.querySelector(".navigation");
-  let openNavigationButton = document.querySelector(".button-open-navigation");
-  let closeNavigationButton = document.querySelector(
-    ".button-close-navigation"
-  );
+  let navigation = header.querySelector(".navigation");
+  let openNavigationButton = header.querySelector(".button-open-navigation");
+  let closeNavigationButton = header.querySelector(".button-close-navigation");
 
   openNavigationButton.addEventListener("click", () => {
     navigation.classList.add("open");
@@ -21,4 +19,17 @@ function addNaviagation() {
   });
 }
 
-addNaviagation();
+function addSideMenuExpands() {
+  let expands = document.querySelectorAll(".nav-expand");
+
+  expands.forEach((expand) => {
+    let expandToggle = expand.querySelector(".nav-expand-toggle");
+
+    expandToggle.addEventListener("click", () => {
+      expand.classList.toggle("open");
+    });
+  });
+}
+
+addMobileSideMenu();
+addSideMenuExpands();

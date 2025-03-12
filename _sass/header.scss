@@ -17,10 +17,11 @@
     background-repeat: no-repeat;
   }
 
-  @media screen and (max-width: $breakpoint-l) {
-    padding-left: $spacing-1;
-    padding-right: $spacing-1;
-
+  @media screen and (max-width: $breakpoint-header-mobile) {
+    .header-content {
+      padding-left: $spacing-1;
+      padding-right: $spacing-1;
+    }
     &.navigation-open {
       background: white;
     }

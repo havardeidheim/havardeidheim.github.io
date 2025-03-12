@@ -19,7 +19,7 @@
       }
     }
 
-    @media screen and (max-width: $breakpoint-l) {
+    @media screen and (max-width: $breakpoint-content-mobile) {
       flex-wrap: wrap;
     }
   }

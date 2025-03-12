@@ -41,17 +41,19 @@
     }
     .nav-expand-toggle::after {
       margin-left: $spacing-05;
-      content: "⏷";
+      content: "\2B9F"; // ⮟
     }
   }
 
-  .nav-expand:hover,
-  .nav-expand:focus-within {
-    .nav-expand-list {
-      display: block;
-    }
-    .nav-expand-toggle::after {
-      content: "⏶";
+  @media screen and (min-width: $breakpoint-header-desktop) {
+    .nav-expand:hover,
+    .nav-expand:focus-within {
+      .nav-expand-list {
+        display: block;
+      }
+      .nav-expand-toggle::after {
+        content: "\2B9D"; // ⮝
+      }
     }
   }
 }

@@ -4,7 +4,7 @@
   font-size: $font-size-h3;
 }
 
-@media screen and (max-width: $breakpoint-l) {
+@media screen and (max-width: $breakpoint-header-mobile) {
   .button-open-navigation,
   .button-close-navigation {
     display: inline-block;
@@ -27,7 +27,7 @@
     width: 100%;
 
     background-color: white;
-    padding: $spacing-1;
+    padding-top: $spacing-1;
 
     &.open {
       display: flex;
@@ -52,6 +52,8 @@
 
     .nav-item a,
     .nav-item button {
+      width: 100%;
+      text-align: left;
       font-size: $font-size-h2-mobile;
     }
     .nav-expand-item a {
@@ -62,16 +64,28 @@
       position: relative;
 
       .nav-expand-list {
-        display: block;
+        display: none;
         z-index: auto;
         position: unset;
         background-color: unset;
         box-shadow: none;
-        padding: 0 $spacing-1;
+        padding-top: $spacing-1;
       }
+      .nav-expand-list.open {
+        display: block;
+      }
+
       .nav-expand-toggle::after {
-        margin-left: $spacing-05;
-        content: "⏷";
+        content: "\2B9F"; // ⮟
+      }
+    }
+    .nav-expand.open {
+      .nav-expand-list {
+        display: block;
+      }
+
+      .nav-expand-toggle::after {
+        content: "\2B9D"; // ⮝
       }
     }
   }
