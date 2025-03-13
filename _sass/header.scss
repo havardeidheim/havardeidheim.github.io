@@ -17,11 +17,14 @@
     background-repeat: no-repeat;
   }
 
-  @media screen and (max-width: $breakpoint-header-mobile) {
+  @media screen and (max-width: $breakpoint-header-full) {
     .header-content {
       padding-left: $spacing-1;
       padding-right: $spacing-1;
     }
+  }
+
+  @media screen and (max-width: $breakpoint-header-mobile) {
     &.navigation-open {
       background: white;
     }

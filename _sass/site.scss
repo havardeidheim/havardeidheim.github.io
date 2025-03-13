@@ -47,6 +47,14 @@
   background-color: white;
   padding-top: $spacing-2;
   padding-bottom: $spacing-2;
+
+  @media screen and (max-width: $breakpoint-content-mobile) {
+    margin-left: -$spacing-1;
+    margin-right: -$spacing-1;
+
+    padding-left: $spacing-1;
+    padding-right: $spacing-1;
+  }
 }
 
 .center-text {
