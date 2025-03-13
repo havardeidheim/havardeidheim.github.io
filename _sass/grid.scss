@@ -18,6 +18,12 @@
   }
 
   @media screen and (min-width: $breakpoint-row-indent) {
+    .grid-100 {
+      width: 100%;
+    }
+    .grid-50 {
+      width: calc((100% - 1 * #{$spacing-1}) / 2);
+    }
     .grid-33 {
       width: calc((100% - 1 * #{$spacing-1}) / 2);
     }
