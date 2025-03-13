@@ -41,7 +41,10 @@
     }
     .nav-expand-toggle::after {
       margin-left: $spacing-05;
-      content: "\2B9F"; // ⮟
+      content: "";
+      width: 0.75rem;
+      height: 0.75rem;
+      @include chevron-down;
     }
   }
 
@@ -52,7 +55,7 @@
         display: block;
       }
       .nav-expand-toggle::after {
-        content: "\2B9D"; // ⮝
+        @include chevron-up;
       }
     }
   }

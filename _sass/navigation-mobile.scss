@@ -76,7 +76,7 @@
       }
 
       .nav-expand-toggle::after {
-        content: "\2B9F"; // ⮟
+        @include chevron-down;
       }
     }
     .nav-expand.open {
@@ -85,7 +85,7 @@
       }
 
       .nav-expand-toggle::after {
-        content: "\2B9D"; // ⮝
+        @include chevron-up;
       }
     }
   }

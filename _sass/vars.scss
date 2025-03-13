@@ -24,3 +24,21 @@ $spacing-1: 16px;
 $spacing-15: 24px;
 $spacing-2: 32px;
 $spacing-4: 64px;
+
+@mixin chevron-down {
+  display: inline-block;
+  border-left: 4px solid black;
+  border-top: 4px solid black;
+  transform: translateY(-4px) scaleX(70%) rotate(-135deg);
+  vertical-align: middle;
+  transition: all 0.3s ease;
+}
+
+@mixin chevron-up {
+  display: inline-block;
+  border-left: 4px solid black;
+  border-top: 4px solid black;
+  transform: translateY(4px) scaleX(70%) rotate(45deg);
+  vertical-align: middle;
+  transition: all 0.3s ease;
+}
