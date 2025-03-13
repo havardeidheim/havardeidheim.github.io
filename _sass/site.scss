@@ -19,11 +19,6 @@
 
 .main-content {
   min-height: 600px;
-
-  @media screen and (max-width: $breakpoint-content-mobile) {
-    padding-left: $spacing-1;
-    padding-right: $spacing-1;
-  }
 }
 
 .row {
@@ -32,14 +27,29 @@
   margin: 0 auto;
   clear: both;
 
+  @media screen and (max-width: $breakpoint-row-full) {
+    padding-left: $spacing-1;
+    padding-right: $spacing-1;
+  }
+
   &--indent {
     max-width: 660px;
     padding-inline: 0;
+
+    @media screen and (max-width: $breakpoint-row-indent) {
+      padding-left: $spacing-1;
+      padding-right: $spacing-1;
+    }
   }
 
   &--indent-medium {
     max-width: 1000px;
     padding-inline: 0;
+
+    @media screen and (max-width: $breakpoint-row-medium) {
+      padding-left: $spacing-1;
+      padding-right: $spacing-1;
+    }
   }
 }
 
@@ -48,12 +58,12 @@
   padding-top: $spacing-2;
   padding-bottom: $spacing-2;
 
-  @media screen and (max-width: $breakpoint-content-mobile) {
+  @media screen and (max-width: $breakpoint-row-indent) {
     margin-left: -$spacing-1;
     margin-right: -$spacing-1;
 
-    padding-left: $spacing-1;
-    padding-right: $spacing-1;
+    // padding-left: $spacing-1;
+    // padding-right: $spacing-1;
   }
 }
 
