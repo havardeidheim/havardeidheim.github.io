@@ -17,6 +17,10 @@
     }
   }
 
+  img {
+    object-fit: cover;
+  }
+
   @media screen and (min-width: $breakpoint-row-indent) {
     .grid-100 {
       width: 100%;
