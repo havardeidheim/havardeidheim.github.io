@@ -1,13 +1,13 @@
 @font-face {
   font-family: QuattrocentoSans;
-  src: url("/assets/fonts/QuattrocentoSans-Regular.ttf");
+  src: url("/assets/fonts/QuattrocentoSans-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: QuattrocentoSans;
-  src: url("/assets/fonts/QuattrocentoSans-Bold.ttf");
+  src: url("/assets/fonts/QuattrocentoSans-Bold.ttf") format("truetype");
   font-style: bold;
   font-weight: 700;
 }
