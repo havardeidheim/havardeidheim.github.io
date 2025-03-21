@@ -3,6 +3,7 @@
   src: url("/assets/fonts/QuattrocentoSans-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
   src: url("/assets/fonts/QuattrocentoSans-Bold.ttf") format("truetype");
   font-style: bold;
   font-weight: 700;
+  font-display: swap;
 }
 
 html {
