@@ -17,6 +17,10 @@ Images should be cropped, resized, and converted to .webp. Use 4/3 aspect ratio 
 for instructors. If you are adding a gallery or full size images, use flickr and point image elements there. Only upload
 images to github if they are part of the site content and always use resized images.
 
+https://imageresizer.com
+
+https://bulkimagecrop.com/
+
 ## Local development
 
 First you need to install ruby and jekyll, see: https://jekyllrb.com/docs/
