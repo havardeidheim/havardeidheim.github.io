@@ -32,4 +32,4 @@ Vi har ingen grupper for barn eller ungdom og vi tar i utgangspunktet ikke inn m
     <a class="button-link" href="https://club.spond.com/landing/signup/frieduellister/form/A49B30787C2946E19D157A768DCF9091">Registrer deg her!</a>
 </div>
 
-![Bilde fra renessansen av pengevekslere](/assets/images/pengeveksler.webp)
+<img alt="Bilde fra renessansen av pengevekslere" src="/assets/images/pengeveksler.webp" class="wide-image">
