@@ -1,4 +1,4 @@
-# Hjemmeside for
+# Hjemmeside for Fekteklubben Frie Duellister
 
 Sider ligger under `/pages`
 
