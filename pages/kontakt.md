@@ -12,8 +12,8 @@ Vi har også alltid stand på Oslo Middelalderfestival der alle kan komme innom 
 
 Dersom du ønsker å trene med oss er all informasjonen du trenger tilgjengelig på sidene for våre ulike lokasjoner:
 
-[Tren i Oslo](/tren-i-oslo)
+[Tren i Oslo](/oslo/trening)
 
-[Tren i Bergen](/tren-i-bergen)
+[Tren i Bergen](/bergen/trening)
 
-[Tren i Tromsø](/tren-i-tromso)
+[Tren i Tromsø](/tromso/trening)
